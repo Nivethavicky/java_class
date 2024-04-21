@@ -1,5 +1,5 @@
 
-		package javaproject;
+                package javaproject;
 		import java.util.LinkedList;
 
 		public class Linked_list {
@@ -100,21 +100,8 @@
 				obj1.addAll( obj); //all elements in obj gets added into obj1 
 				System.out.println(obj1);
 				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-
 			}
 
-		
-
-
-	}
+	           }
 
 
