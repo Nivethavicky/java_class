@@ -1,20 +1,16 @@
 package javaproject;
 
 public class Condition {
-
+	
 	public static void main(String[] args) {
 		
-//		if statement
-		
-		
-		
+            //if statement
 		int age=4;
 		if(age>18) {
 			System.out.println("you are eligible to vote");  
 		}
 		else {
 			System.out.println("you are not eligible to vote");
-	        
 		}
 
 		if(age%2==0) {
@@ -23,13 +19,10 @@ public class Condition {
 		}
 		else {
 			System.out.println("odd number");
-	        
 		}
 		
 		
-//		nested if
-		
-		
+               //nested if
 		int mark=95;
 		if(mark>=35)
 		{
@@ -40,9 +33,7 @@ public class Condition {
 		}
 			System.out.println("bye");
 	      
-//			nested if
-			
-			
+                 //nested if
 			int total=249;
 			if(total>250) 
 			{
