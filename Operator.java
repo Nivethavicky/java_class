@@ -5,11 +5,11 @@ public class Operator {
 	public static void main(String[] args) {
 		//post increment
 		
-		int n=5;
-		System.out.println(n);
-		System.out.println(n++);
-		System.out.println(n);   //here n= 6
-        
+	int n=5;
+	System.out.println(n);
+	System.out.println(n++);
+        System.out.println(n);   //here n= 6
+	        
         int val=n++;
         System.out.println(val); //6
         System.out.println(n);    //7
@@ -27,7 +27,7 @@ public class Operator {
         System.out.println(n);   //9
         
         
-//        post decrement
+       // post decrement
         
        int m=10;
        System.out.println(m); //10
@@ -37,10 +37,6 @@ public class Operator {
        int res1=m--;
        System.out.println(m);//8
        System.out.println(res1); //9
-       
-       
-        
 
-	}
-
+   }
 }
