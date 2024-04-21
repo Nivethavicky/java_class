@@ -13,8 +13,6 @@ public class TYPE_CASTING {
 		double double2 = 10.5;
 		int integer = (int) double2; // Explicit casting from double to int
 		System.out.println(integer); // Output: 10
-
-		
 		
 	}
 
