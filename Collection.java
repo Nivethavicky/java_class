@@ -76,20 +76,11 @@ public class Collection {
 		System.out.println(obj);
 		
 		
-        //addAll
+                //addAll
+		
 		ArrayList<Integer> obj1= new ArrayList<Integer>();
 		obj1.addAll( obj); //all elements in obj gets added into obj1 
 		System.out.println(obj1);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 
 	}
 
