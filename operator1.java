@@ -3,7 +3,7 @@ package javaproject;
 public class operator1 {
 
 	public static void main(String[] args) {
-//	arithmetic operator
+          //arithmetic operator
 		int a = 10;
 		int b = 5;
 
@@ -13,14 +13,14 @@ public class operator1 {
 		int quotient = a / b; // Division
 		int remainder = a % b; // Modulus (remainder)
  
-        System.out.println(sum);
-        System.out.println(difference);
-        System.out.println(product);
-        System.out.println(quotient);
-        System.out.println(remainder);
+                System.out.println(sum);
+                System.out.println(difference);
+                System.out.println(product);
+                System.out.println(quotient);
+                System.out.println(remainder);
         
-System.out.println("';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;");      
-//        assignment operator
+      System.out.println("..........................................");      
+// assignment operator
         int x = 10;
         x += 5; // Equivalent to: x = x + 5; //15
         x -= 3; // Equivalent to: x = x - 3;  //12
@@ -29,8 +29,6 @@ System.out.println("';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;");
         x %= 3; // Equivalent to: x = x % 3;  //0
         
         System.out.println(x); //0
-        
-        
         
 System.out.println("';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"); 
 
@@ -95,9 +93,7 @@ System.out.println(rightShiftResult);
 //System.out.println(zeroFillRightShiftResult);  
 
 //    TERNARY OPERATOR
-System.out.println("';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"); 
-
-
+ System.out.println("';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"); 
  int u= 10 > 5 ? 66 : 76;
  System.out.println(u);
  
