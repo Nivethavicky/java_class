@@ -3,16 +3,13 @@ package javaproject;
 public class wrapper {
 
 	public static void main(String[] args) {
-		//inbuilt methods/wrapper class
-		
-		int n=18;
-		//n. will not give any suggestion(primitive datattype dont have inbuilt method)
-		
-		  Integer n1=new Integer(15);
-		//n1. showing suggetion(bcoz wrapper class has inbuilt method)
-		
+	//inbuilt methods/wrapper class	
+    	int n=18;
+	//n. will not give any suggestion(primitive datattype dont have inbuilt method)
+        Integer n1=new Integer(15);
+	//n1. showing suggetion(bcoz wrapper class has inbuilt method)
 		 
-		 //compareto(comparing integer)
+ 	//compareto(comparing integer)
         System.out.println(n1.compareTo(15)); //equal  0
        System.out.println(n1.compareTo(14));  //less <0(1)
        System.out.println(n1.compareTo(18));  //greater >0(-1)    
