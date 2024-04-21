@@ -36,7 +36,7 @@ public class String_buffer {
 		
 		//Stringbuffer reference
 		// equals method in string buffer checks memory address
-        //here both reference are different
+                //here both reference are different
 		StringBuffer sb= new StringBuffer("hello");
 		StringBuffer sb1= new StringBuffer("hello");
 		System.out.println(sb);
@@ -51,21 +51,18 @@ public class String_buffer {
 		sb.deleteCharAt(1); //delete char
 		sb.setCharAt(1, 't'); //update
 		
-	    System.out.println(sb); //hellohi
+	        System.out.println(sb); //hellohi
 		
 		//check sb.append() it accpt many values like string ,char, boolean
 		
 		//string is immutable(cant change)
 		//to update string
 	    
-	    //stringbuilder--thread safe(multiple work ...throw error)
-	    //stringbuffer---not thread safe(preferrable, multiple works execute line by line)
+	        //stringbuilder--thread safe(multiple work ...throw error)
+	        //stringbuffer---not thread safe(preferrable, multiple works execute line by line)
 		
 		StringBuilder se=new StringBuilder("he");
 		
-		
-		
+	   }
 
-	}
-
-}
+        }
