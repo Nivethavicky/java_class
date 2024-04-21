@@ -3,8 +3,8 @@ package javaproject;
 public class Operator {
 
 	public static void main(String[] args) {
-		//post increment
-		
+
+       //post increment	
 	int n=5;
 	System.out.println(n);
 	System.out.println(n++);
@@ -13,7 +13,6 @@ public class Operator {
         int val=n++;
         System.out.println(val); //6
         System.out.println(n);    //7
-        
         
         System.out.println("'''''''''''''''''''''''''''''''");
         
